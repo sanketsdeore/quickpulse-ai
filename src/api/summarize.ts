@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const OPENROUTER_KEY = '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'; // replace with your key
+const OPENROUTER_KEY = 'OPENROUTER_API_KEY'; // replace with your key
 const MODEL = 'deepseek/deepseek-chat-v3-0324:free'; // free-tier model
 
 export const summarizeArticle = async (content: string): Promise<string> => {
