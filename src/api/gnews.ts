@@ -11,7 +11,7 @@ export interface Article {
     };
 }
 
-const API_KEY = '80e13f03e6220d3fef552a3f9f078bf3';
+const API_KEY = 'GNEWS_API_KEY';
 const BASE_URL = `https://gnews.io/api/v4`;
 
 export const fetchNews = async (query = ''): Promise<Article[]> => {
